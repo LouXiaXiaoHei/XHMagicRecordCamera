@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XHMagicRecordCamera (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XHMagicRecordCamera (from `../`)
+
+EXTERNAL SOURCES:
+  XHMagicRecordCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XHMagicRecordCamera: 014c0eab974d0b352efbad070eb0c6a6d41a598a
+
+PODFILE CHECKSUM: 4cbef9bad2ca30961977aee4035f23456900df3b
+
+COCOAPODS: 1.2.1.beta.1

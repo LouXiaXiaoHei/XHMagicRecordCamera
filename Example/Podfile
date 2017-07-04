@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XHMagicRecordCamera_Example' do
+  pod 'XHMagicRecordCamera', :path => '../'
+
+  target 'XHMagicRecordCamera_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

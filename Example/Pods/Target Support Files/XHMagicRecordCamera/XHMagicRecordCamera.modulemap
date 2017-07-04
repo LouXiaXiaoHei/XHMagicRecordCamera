@@ -1,0 +1,6 @@
+framework module XHMagicRecordCamera {
+  umbrella header "XHMagicRecordCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
