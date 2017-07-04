@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XHMagicRecordCamera'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XHMagicRecordCamera.'
+  s.summary          = 'My Project: XHMagicRecordCamera.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    This is a library of Carmer , which is use in ios.
                        DESC
 
-  s.homepage         = 'https://github.com/mr_supergift@163.com/XHMagicRecordCamera'
+  s.homepage         = 'https://github.com/LouXiaXiaoHei/XHMagicRecordCamera'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mr_supergift@163.com' => '1319697214@qq.com' }
-  s.source           = { :git => 'https://github.com/mr_supergift@163.com/XHMagicRecordCamera.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LouXiaXiaoHei/XHMagicRecordCamera.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
