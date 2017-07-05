@@ -8,14 +8,14 @@
 
 import UIKit
 import XHMagicRecordCamera
-
+import AVFoundation
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let a:XHMagicRecordCamera = XHMagicRecordCamera.init();
-        a.tool()
+        let cameraObj = XHMagicRecordCamera.init(sessionPreset: AVCaptureSessionPreset1280x720, showView: self.view);
+        cameraObj.startCapture();
     }
 
     override func didReceiveMemoryWarning() {
