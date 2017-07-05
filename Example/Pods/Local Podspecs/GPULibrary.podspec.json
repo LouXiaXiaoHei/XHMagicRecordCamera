@@ -1,0 +1,26 @@
+{
+  "name": "GPULibrary",
+  "version": "0.0.1",
+  "summary": "GPUImage Library.",
+  "description": "A short description of GPULibrary.",
+  "homepage": "http://EXAMPLE/GPULibrary",
+  "license": "MIT",
+  "authors": {
+    "邓小涛": "1319697214@qq.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Source",
+    "Source/***/**/*"
+  ],
+  "exclude_files": "Source/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

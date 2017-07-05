@@ -1,9 +1,9 @@
 {
   "name": "XHMagicRecordCamera",
   "version": "0.1.0",
-  "summary": "A short description of XHMagicRecordCamera.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mr_supergift@163.com/XHMagicRecordCamera",
+  "summary": "My Project: XHMagicRecordCamera.",
+  "description": "This is a library of Carmer , which is use in ios.",
+  "homepage": "https://github.com/LouXiaXiaoHei/XHMagicRecordCamera",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "mr_supergift@163.com": "1319697214@qq.com"
   },
   "source": {
-    "git": "https://github.com/mr_supergift@163.com/XHMagicRecordCamera.git",
+    "git": "https://github.com/LouXiaXiaoHei/XHMagicRecordCamera.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XHMagicRecordCamera/Classes/**/*"
+  "source_files": "XHMagicRecordCamera/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "OpenGLES"
+  ]
 }

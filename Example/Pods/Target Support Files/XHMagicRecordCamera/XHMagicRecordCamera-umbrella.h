@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GPUImage.h"
 
 FOUNDATION_EXPORT double XHMagicRecordCameraVersionNumber;
 FOUNDATION_EXPORT const unsigned char XHMagicRecordCameraVersionString[];

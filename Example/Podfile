@@ -1,11 +1,5 @@
-use_frameworks!
-
+platform :ios, "8.0"
 target 'XHMagicRecordCamera_Example' do
   pod 'XHMagicRecordCamera', :path => '../'
-
-  target 'XHMagicRecordCamera_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  use_frameworks!
 end
