@@ -1,2 +1,2 @@
 # XHMagicRecordCamera
-person project for ios carmer
+person project for ios camera
